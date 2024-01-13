@@ -1,0 +1,28 @@
+.parent{
+    background-color: blanchedalmond;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    /* flex: 1; */
+    display: flex;
+    background-color: rgb(255, 213, 158);
+    justify-content: center;
+    align-items: center;
+}
+
+/* }.child1{
+    width: 100px;
+    height: 100px;
+    flex : 2;
+    background-color: purple;
+    margin: 10px;
+} */

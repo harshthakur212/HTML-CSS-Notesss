@@ -1,0 +1,66 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Style</title>
+    <style>
+      /*Element selectors*/
+
+      h1 {
+        color: aquamarine;
+        background: grey;
+      }
+
+      /*Class Selector*/
+
+      .paragraph {
+        color: rgb(33, 88, 88);
+        line-height: 2;
+        background-color: beige;
+      }
+
+      /*ID selector*/
+
+      #division {
+        color: palegreen;
+        background: grey;
+      }
+
+      /*Attribute selector*/
+
+      span[name="span"] {
+        color: #d2691e;
+        background: beige;
+        font-stretch: expanded;
+      }
+
+      /*Universal Selector*/
+
+      * {
+        background: grey;
+      }
+
+      .box {
+        color: whitesmoke;
+        width: 100px;
+        height: 100px;
+        background: black;
+        letter-spacing: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Internal CSS -->
+
+    <h1>CSS Basics</h1>
+
+    <span class="paragraph">I am using class selector</span>
+
+    <div id="division">I am using ID selector</div>
+
+    <span name="span">I am using attribute selector</span>
+
+    <div class="box">Pixels</div>
+  </body>
+</html>

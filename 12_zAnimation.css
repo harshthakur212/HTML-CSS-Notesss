@@ -1,0 +1,57 @@
+button{
+    margin: 100px;
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 20px;
+    cursor: pointer;
+    /* transition-delay: 80ms;
+    transition-duration: 500ms;
+    transition-property: all;
+    transition-timing-function: ease; */
+    transition: ease all 500ms;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+    border: 2px  whitesmoke;
+    padding: 20px;
+}
+
+.parent{
+    height:500px;
+    background: rgb(208, 138, 77);
+    
+}
+
+.child{
+    height:100px;
+    width: 100px;
+    background: white; 
+    border-radius: 50%;
+    transition: all 4s ease-in;
+}
+
+.parent:hover .child{
+    animation: ballAnimation 2s ease-in infinite;
+}
+
+@keyframes ballAnimation {
+    25%{
+        transform: translate(250% , 0);
+        background: peachpuff;
+    }
+    50%{
+        transform: translate(250% , 250%);
+        background: paleturquoise;
+    }
+    75%{
+        transform: translate(0, 250%);
+        background: palegreen;
+    }
+    100%{
+        transform: translate(0 , 0);
+        background: palevioletred;
+    }
+
+}

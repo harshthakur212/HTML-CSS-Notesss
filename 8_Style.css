@@ -1,0 +1,14 @@
+h1 {
+  padding: 15px;
+  margin: 15px;
+  /* margin: 10px  12px 14 15px; */
+  color: aqua;
+  border: solid 3px black;
+  width: 330px;
+  height: 40px;
+  background: pink;
+  border: dashed 3px rebeccapurple;
+}
+/* Box Module*/
+/* content > padding > border > margin */
+/*css battle*/

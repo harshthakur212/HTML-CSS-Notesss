@@ -1,0 +1,27 @@
+.h1{
+    font-size: 60px;
+} 
+
+.parent{
+    display: flex;
+    background-color: aqua;
+    padding: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+@media screen and (max-width:580px){
+    h1{
+        font-size: 30px;
+    }
+
+    .child{
+width: 100%;
+    }
+}
